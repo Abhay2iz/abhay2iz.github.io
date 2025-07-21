@@ -3,7 +3,7 @@ This is a personal motivational article written by Abhay Agrahari at the age of 
 It discusses the fundamentals of success, common self-improvement challenges, and how to overcome them.
 
 ## 🌐 Live Website
-Visit the live version: https://abhayagrahari.github.io
+Visit the live version: https://abhay2iz.github.io
 
 ## 📁 Files
 - index.html — Main webpage
