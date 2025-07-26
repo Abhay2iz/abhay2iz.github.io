@@ -3,108 +3,181 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Barriers to Success | By Abhay Agrahari</title>
+  <title>Abhay Agrahari</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #111;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
       line-height: 1.6;
-      margin: 40px auto;
+    }
+    .profile-photo-wrap {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      z-index: 10;
+    }
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: box-shadow 0.2s;
+    }
+    .hi-message {
+      display: none;
+      position: absolute;
+      top: 80px;
+      left: 110px;
+      background: #222;
+      color: #eee;
+      padding: 10px 18px;
+      border-radius: 16px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      pointer-events: none;
+      max-width: 680px;
+      z-index: 20;
+    }
+    .show-hi { display: block; }
+
+    .container {
       max-width: 800px;
-      color: #333;
-      background-color: #f9f9f9;
-      padding: 0 20px;
+      margin: 130px auto 60px auto;
+      padding: 40px;
+      background: rgba(40,40,40,0.9);
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
     }
-
-    h1, h2, h3 {
-      color: #222;
+    h1, h2 {
+      color: #fff;
+      letter-spacing: 1px;
     }
-
-    h1 {
-      font-size: 32px;
-      text-align: center;
-      margin-bottom: 0;
-    }
-
     h2 {
-      margin-top: 30px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      margin-top: 2em;
+      border-bottom: 2px solid #444;
+      padding-bottom: 8px;
     }
-
+    p {
+      margin: 1em 0;
+    }
     ul {
       margin-left: 20px;
+      margin-bottom: 1em;
     }
-
-    .author {
-      text-align: center;
-      font-style: italic;
-      margin-top: 5px;
-      font-size: 16px;
-      color: #555;
+    li {
+      margin-bottom: 0.4em;
     }
-
-    footer {
-      text-align: center;
-      font-size: 14px;
-      margin: 40px 0 10px 0;
-      color: #888;
+    .indent {
+      margin-left: 18px;
     }
   </style>
 </head>
 <body>
+  <!-- Profile Photo with "Hi" Message -->
+  <div class="profile-photo-wrap">
+    <img src="profile.jpg" alt="Profile Photo" class="profile-photo" id="profilePhoto" />
+    <div class="hi-message" id="hiMessage">Hi! 👋</div>
+  </div>
 
-  <h1>Barriers to Success</h1>
-  <div class="author">By Abhay Agrahari, written at age 18</div>
+  <div class="container">
+    <h1>Greetings! I'm Abhay Agrahari</h1>
+    <p>
+      An avid tech enthusiast with a relentless drive for learning and self-improvement. My journey in the tech space is deeply rooted in my fascination with coding and the transformative potential of Artificial Intelligence. I love unraveling complex problems and am always on the lookout for opportunities to expand my knowledge in these dynamic fields.
+    </p>
 
-  <h2>Introduction</h2>
-  <p>We human beings are always in pursuit of success, or we try to become successful. Success is defined differently for different people, but the <strong>fundamentals of success are the same</strong>. This article will focus on the essential principles required to achieve success.</p>
+    <h2>This is my research on AI AGENT AND AI WORKFLOW.</h2>
 
-  <h2>Fundamentals of Success</h2>
-  <p>At various stages of life, we set goals and try different approaches to achieve them. A <strong>businessperson</strong> may aim to increase profits, an <strong>aspirant</strong> may work toward passing an exam, a <strong>social media influencer</strong> may strive to post content regularly, and a <strong>sportsperson</strong> may dream of representing their country.</p>
-  <p>After setting a goal, we begin working toward it. The <strong>efforts and process</strong> we follow will ultimately determine our <strong>fate</strong>.</p>
+    <p><strong>AI and AI AGENTS</strong></p>
 
-  <h3>1. Making a Plan and Strategy</h3>
-  <p>This is the first and most crucial step on the journey to success. Creating a <strong>clear and effective plan</strong> is vital. At this stage, you should seek guidance from someone <strong>experienced in your field</strong>. Having a mentor or guide to support you can be extremely beneficial.</p>
+    <p>Large Language Models or LLMs are a type of artificial intelligence designed to understand and generate human language. They’re the brains behind tools like ChatGPT, Gemini, and LLaMA, and they’ve revolutionized how machines interact with text.</p>
 
-  <h3>2. Discipline</h3>
-  <p>Discipline is perhaps the <strong>most important factor</strong>. To stick with your plan and implement it consistently, you need to put in work every day. That sustained effort, even when you don’t feel motivated, is what defines discipline.</p>
+    <p><strong>Key Traits Of LLMs</strong></p>
+    <ul>
+      <li>Despite being trained on vast amounts of data, they have limited knowledge of proprietary information, like our personal information or internal company data.</li>
+      <li>LLMs are passive – They wait for our prompt to respond.</li>
+    </ul>
 
-  <h2>Barriers to Success</h2>
+    <p><strong>AI WORKFLOWS</strong></p>
 
-  <h3>1. Negative Characteristics</h3>
-  <p>These internal habits or mindsets hold us back, including:</p>
-  <ul>
-    <li>Procrastination</li>
-    <li>Distractions</li>
-    <li>Fear of failure</li>
-    <li>Self-doubt</li>
-    <li>Jealousy</li>
-  </ul>
+    <p><strong>🧠 Understanding AI Integration Through App Access</strong></p>
+    <p>If you ask a language model (LLM) about your next meeting, it won’t be able to answer unless it has access to the relevant data — like your calendar. To get accurate and context-aware responses, an AI assistant must be connected to the apps or tools that hold your personal information.</p>
+    <p>For instance, integrating your calendar enables the AI to check your schedule, while connecting to a weather service allows it to provide forecasts for that particular day.</p>
+    <p>Expanding access to additional tools — such as maps, email, fitness trackers, and smart devices — further enhances the assistant’s capability to deliver personalized recommendations, reminders, and even automate tasks in your daily routine.</p>
 
-  <h3>2. Uncontrollable Circumstances</h3>
-  <p>Despite doing everything right, <strong>unexpected situations</strong> may arise, such as:</p>
-  <ul>
-    <li>Becoming seriously ill just before an important exam</li>
-    <li>Losing a family member during a crucial period</li>
-  </ul>
-  <p>These are events <strong>outside your control</strong>.</p>
+    <p><strong>📌 Related Enhancements Through Integration:</strong></p>
+    <ul>
+      <li><strong>Calendar Access:</strong> Enables meeting reminders, schedule suggestions, travel time estimates.</li>
+      <li><strong>Weather Data:</strong> Offers forecasts, clothing suggestions, and alerts for severe conditions.</li>
+      <li><strong>Email & Messaging Apps:</strong> Drafts replies, summarizes long threads, flags priority items.</li>
+      <li><strong>Smart Home Devices:</strong> Controls lights, thermostats, and appliances with contextual commands.</li>
+      <li><strong>Maps & Traffic:</strong> Suggests routes based on current traffic and appointment location.</li>
+      <li><strong>Fitness & Health Trackers:</strong> Adjusts recommendations based on sleep, activity, or goals.</li>
+    </ul>
 
-  <h2>Tackling the Barriers</h2>
+    <p><strong>🚀 Short Summary — What Are AI Workflows?</strong></p>
+    <p>AI workflows are coordinated processes where artificial intelligence performs tasks by interacting with various data sources and apps. These workflows connect multiple systems to automate actions, provide context-aware assistance, and deliver smarter user experiences. Think of them as digital pathways where AI pulls data, makes decisions, and takes action — like a brain wired into your tools.</p>
 
-  <h3>Overcoming Negative Characteristics</h3>
-  <p>Recognize the <strong>importance of your goal</strong>. Remind yourself why you started and visualize the finish. For long-term goals, create a <strong>monthly and daily plan</strong>. Execution with consistency matters most.</p>
-  <p>Never give up unless it’s truly over. If you quit, you gain nothing. But if you stay in the game, you will earn something—skills, growth, or success.</p>
+    <p><em>Note – Even when an AI system is integrated with multiple applications — such as calendar, weather, search engines like Google, or other tools — it still remains an AI workflow.</em> Without autonomous decision-making or context-aware actions from an AI agent, there is no genuine agent involvement. It’s simply orchestrated access, not intelligent interaction.</p>
 
-  <h3>Facing Uncontrollable Circumstances</h3>
-  <p>You can’t always stop these events, but you can choose how to respond. Start by <strong>detaching from the outcome</strong> and placing trust in <strong>faith</strong>.</p>
-  <p>Spirituality can bring peace and strength during tough times. Belief in a higher power helps you face both <strong>internal and external challenges</strong> with calm and clarity.</p>
+    <p><strong>🧠 Quick Contrast</strong></p>
+    <table style="color: #f1f1f1; border-collapse: collapse; width: 100%; margin-top: 1em;">
+      <thead>
+        <tr style="border-bottom: 1px solid #444;">
+          <th style="padding: 8px; text-align: left;">Feature</th>
+          <th style="padding: 8px; text-align: left;">AI Workflow</th>
+          <th style="padding: 8px; text-align: left;">AI Agent</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid #444;">
+          <td style="padding: 8px;">Task Execution</td>
+          <td style="padding: 8px;">Follows predefined steps</td>
+          <td style="padding: 8px;">Acts independently based on context</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #444;">
+          <td style="padding: 8px;">Decision-making</td>
+          <td style="padding: 8px;">Human-driven</td>
+          <td style="padding: 8px;">AI-driven</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px;">Adaptability</td>
+          <td style="padding: 8px;">Limited</td>
+          <td style="padding: 8px;">High</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px;" colspan="3"><strong>Example Analogy:</strong> Like pressing buttons on a machine (Workflow) vs. like asking a smart assistant to help (Agent)</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <h2>Conclusion</h2>
-  <p>Success requires more than smart planning and hard work. Overcoming both internal and external barriers is just as important. Stay <strong>disciplined</strong>, stay <strong>focused</strong>, and stay <strong>committed to your purpose</strong>. Let faith carry you through what you cannot control.</p>
+    <p><strong>RAG (Retrieval Augmented Generation)</strong></p>
+    <p>RAG is a process that helps AI models to “look things up” before they answer. Essentially, RAG is just a type of workflow.</p>
 
-  <footer>
-    Written by Abhay Agrahari • Age 18 • © 2025
-  </footer>
+    <p><strong>AI AGENTS</strong></p>
+    <p>When we replace the human involvement from the AI workflow by AI models, then it becomes an AI agent. An AI agent must reason and act which is known as the ReAct Framework.</p>
+  </div>
 
+  <script>
+    const photo = document.getElementById('profilePhoto');
+    const hiMsg = document.getElementById('hiMessage');
+    let hideTimeout;
+
+    function showHi() {
+      hiMsg.classList.add('show-hi');
+      clearTimeout(hideTimeout);
+      hideTimeout = setTimeout(() => {
+        hiMsg.classList.remove('show-hi');
+      }, 1800);
+    }
+
+    photo.addEventListener('click', showHi);
+    photo.addEventListener('touchstart', showHi);
+  </script>
 </body>
 </html>
