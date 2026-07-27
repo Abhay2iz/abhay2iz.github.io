@@ -378,3 +378,80 @@ transition:.3s;
 transform:translateY(-4px);
 
 }
+/* Portfolio V2 */
+
+.hero h1{
+font-size:4.2rem;
+margin:10px 0;
+background:linear-gradient(
+90deg,
+#ffffff,
+#38bdf8
+);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero-image img{
+width:340px;
+border-radius:20px;
+box-shadow:0 0 35px rgba(56,189,248,.25);
+transition:.4s;
+}
+
+.hero-image img:hover{
+transform:scale(1.03);
+}
+
+.stats{
+display:flex;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.stat{
+background:#1b1b1b;
+padding:20px 30px;
+border-radius:15px;
+border:1px solid #2b2b2b;
+text-align:center;
+}
+
+.stat h3{
+font-size:28px;
+color:#38bdf8;
+}
+
+.stat p{
+color:#bbb;
+}
+
+.skill-card{
+background:#1b1b1b;
+padding:20px;
+border-radius:15px;
+border:1px solid #2b2b2b;
+text-align:center;
+transition:.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-6px);
+border-color:#38bdf8;
+box-shadow:0 10px 20px rgba(56,189,248,.12);
+}
+
+.project-card{
+background:#1b1b1b;
+padding:25px;
+border-radius:18px;
+border:1px solid #2b2b2b;
+transition:.3s;
+}
+
+.project-link:hover .project-card{
+transform:translateY(-8px);
+border-color:#38bdf8;
+box-shadow:0 15px 30px rgba(56,189,248,.15);
+}
